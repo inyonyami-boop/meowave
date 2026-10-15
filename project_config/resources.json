@@ -1,0 +1,27 @@
+{
+  "$schema": "../schemas/resources.schema.json",
+
+  "preload_groups": [
+    "game_text",
+    "intro_media"
+  ],
+
+  "groups": {
+    "default": [
+      "**"
+    ],
+    "game_text": [
+      "Level1/Text/level_1.txt",
+      "Global/Text/通关锦旗文案.txt",
+      "Global/Text/黑锦旗文案.txt",
+      "Global/Text/威胁信文案.txt"
+    ],
+    "intro_media": [
+      "Global/Audio/Ravens Sound.mp3",
+      "Global/Images/EnvelopeClosed.png",
+      "Global/Images/EnvelopeOpen.png",
+      "Global/Images/Letter.png"
+    ]
+  }
+}
+

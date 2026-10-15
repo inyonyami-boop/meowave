@@ -1,0 +1,42 @@
+# 不提交原厂商身份、凭据、玩家状态或生成物
+.project/
+.git-credentials
+.env
+.env.*
+*.pem
+*.key
+saves/
+logs/
+screenshots/
+.tmp/
+.build/
+dist/
+.cli/
+_uploads/
+__pycache__/
+*.log
+*.crswap
+.DS_Store
+
+# 引擎及本机开发配置由目标平台提供
+.agent/
+.agents/
+.claude/
+.codex/
+.cursor/
+.gemini/
+.opencode/
+.emmylua/
+.vscode/
+engine-docs/
+editor-docs/
+examples/
+templates/
+urhox-libs/
+schemas/
+skills/
+tools/
+scripts/.luarc.json
+
+# 不将压缩归档重复放入 Git
+meowave-source.zip
